@@ -1,0 +1,7 @@
+repos:
+-   repo: https://github.com/believeszw/husky_test
+    rev: master
+    hooks:
+    -   id: clang-format
+    -   id: cpplint
+    -   id: cppcheck
